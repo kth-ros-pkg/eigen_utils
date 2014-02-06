@@ -8,7 +8,7 @@ catkin_package(
   DEPENDS eigen
   CATKIN_DEPENDS 
   INCLUDE_DIRS include 
-  LIBRARIES 
+  LIBRARIES eigen_utils
 )
 
 include_directories(
